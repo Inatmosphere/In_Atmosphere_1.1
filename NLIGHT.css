@@ -1,0 +1,57 @@
+css
+/* General Styles */
+body {
+  background-color: #0d1321; /* Dark blue background */
+  color: #d0e0ff; /* Light blue text color */
+  font-family: 'Courier New', monospace; /* Monospace sci-fi font */
+}
+
+a {
+  color: #7eb8ff; /* Light blue link color */
+  text-decoration: none;
+  text-shadow: 0 0 3px rgba(126, 184, 255, 0.5); /* Light blue glow */
+}
+
+a:hover {
+  color: #b3d9ff; /* Lighter blue on hover */
+  text-shadow: 0 0 5px rgba(179, 217, 255, 0.8); /* Brighter glow on hover */
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent dark background */
+  border: 1px solid #2c4867; /* Dark blue border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(44, 72, 103, 0.5); /* Dark blue glow */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #2c4867; /* Dark blue border color */
+}
+
+th {
+  background-color: #183153; /* Darker blue header background */
+  color: #b3d9ff; /* Lighter blue for header text */
+  text-transform: uppercase; /* All caps */
+  letter-spacing: 2px; /* Increased letter spacing */
+}
+
+/* Heading Styles */
+h3, h4 {
+  font-weight: bold;
+  text-transform: uppercase; /* All caps */
+  letter-spacing: 2px; /* Increased letter spacing */
+  text-shadow: 0 0 5px rgba(126, 184, 255, 0.8); /* Light blue glow */
+}
+
+h3 {
+  color: #7eb8ff; /* Light blue for main heading */
+}
+
+h4 {
+  color: #b3d9ff; /* Lighter blue for subheading */
+}

@@ -1,0 +1,48 @@
+css
+/* General Styles */
+body {
+  background-color: #0d1321; /* Dark blue background */
+  color: #d0e0ff; /* Light blue text color */
+  font-family: 'Lucida Console', monospace; /* Monospace font */
+}
+
+a {
+  color: #7eb8ff; /* Light blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b3d9ff; /* Lighter blue on hover */
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #2c4867; /* Dark blue border color */
+}
+
+th {
+  background-color: #183153; /* Darker blue header background */
+  color: #b3d9ff; /* Lighter blue for header text */
+}
+
+/* Heading Styles */
+h3, h4 {
+  font-weight: bold;
+  text-transform: uppercase; /* All caps */
+  letter-spacing: 2px; /* Increased letter spacing */
+}
+
+h3 {
+  color: #7eb8ff; /* Light blue for main heading */
+}
+
+h4 {
+  color: #b3d9ff; /* Lighter blue for subheading */
+}
