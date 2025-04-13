@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+  background-color: #0f0f0f; /* Dark background color */
+  color: #e0e0e0; /* Light text color */
+  font-family: 'Courier New', monospace; /* Sci-fi font */
+}
+
+a {
+  color: #4da6ff; /* Blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8ac6ff; /* Lighter blue on hover */
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #333; /* Dark border color */
+}
+
+th {
+  background-color: #1a1a1a; /* Darker header background */
+}
+
+/* Heading Styles */
+h3, h4 {
+  font-weight: bold;
+  text-transform: uppercase; /* All caps */
+  letter-spacing: 2px; /* Increased letter spacing */
+}
+
+h3 {
+  color: #4da6ff; /* Blue color for main heading */
+}
+
+h4 {
+  color: #8ac6ff; /* Lighter blue for subheading */
+}
